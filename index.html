@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO Lister</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi&family=Courgette&family=Kalam&family=Kaushan+Script&family=Permanent+Marker&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="allContainer">
+        <div>
+          <div class="row">
+            <div class="intro">
+              <h1>TO-DO Lister</h1>
+            </div>
+          </div>
+        </div>
+        <div class="lines">
+          <p class="one">make your tasks as a minimal list</p>
+        </div>
+
+        <div class="">
+          <div>
+            <input
+              id="userinput"
+              type="text"
+              placeholder=" New Task..."
+              maxlength="440"
+            />
+            <button id="button"><i id="add">Add</i></button>
+          </div>
+        </div>
+
+        <!--Empty Lists-->
+
+        <div class="">
+          <div class="items">
+            <ul class=""></ul>
+          </div>
+        </div>
+        <div class="lines">
+          <div class="">
+            <p class="two">
+              Tip : Click the task to mark that you have completed !
+            </p>
+
+            <p class="three">Click " clear " to delete/remove task...</p>
+          </div>
+        </div>
+        <p class="four">Note : Once you reload you will lost your data...</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

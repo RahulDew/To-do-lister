@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1c1e20;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.allContainer {
+  width: 85%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  margin-top: 10%;
+  text-align: center;
+}
+.intro {
+  color: rgb(203, 246, 255);
+  font-family: "Kaushan Script", cursive;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.lines {
+  padding-bottom: 15px;
+  color: rgb(6, 216, 146);
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: center;
+  margin: auto;
+}
+.one {
+  margin-bottom: 20px;
+  color: rgb(203, 246, 255);
+  font-size: 26px;
+  font-family: "Kaushan Script", cursive;
+}
+.two,
+.three {
+  font-size: 20px;
+  font-family: "Sriracha", cursive;
+}
+input {
+  height: 40px;
+  width: 77%;
+  border-radius: 7px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(210, 245, 252);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 15px;
+}
+#button {
+  border: none;
+  padding: 10px 26px;
+  height: 40px;
+  margin: 7px 15px;
+  color: #062847;
+  background-color: orange;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: bold;
+  font-size: large;
+}
+
+ul {
+  margin-top: 45px;
+  align-items: center;
+}
+li {
+  font-family: "Anek Gurmukhi", sans-serif;
+  list-style-type: none;
+  padding: 1.5%;
+  margin: 15px auto;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.093);
+  border: none;
+  width: 90%;
+  text-align: left;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+
+li button {
+  font-weight: bold;
+  border-radius: 7px;
+  margin-top: 2px;
+  padding: 1px 5px;
+  border: none;
+  float: right;
+  color: black;
+  font-weight: 800;
+}
+li button:hover {
+  background: rgb(222, 11, 46);
+  color: whitesmoke;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.done {
+  background: rgba(44, 192, 118, 0.849);
+}
+.four {
+  color: orange;
+  font-size: 20px;
+  font-family: "Sriracha", cursive;
+}
+.footer {
+  background-color: #161e25;
+  height: 140px;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 0px;
+  border-radius: 7px 7px 0px 0px;
+  /* padding-bottom: 0; */
+  position: fixed;
+}
+.icons {
+  padding: 9px;
+}
+.icons a i {
+  color: aliceblue;
+  font-size: 33px;
+  margin: 8px 25px;
+}
+.icons a i:hover {
+  color: orange;
+}
+.name {
+  color: aliceblue;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+@media (max-width: 778px) {
+  .intro {
+    font-size: 28px;
+  }
+  .one {
+    font-size: 17px;
+    margin-top: -10px;
+  }
+  .two,
+  .three {
+    font-size: 15px;
+  }
+  input {
+    width: 93%;
+  }
+  #button {
+    margin-top: 14px;
+  }
+  ul {
+    margin-top: 30px;
+  }
+  .icons a i {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 590px) {
+  .intro {
+    font-size: 37px;
+  }
+  input {
+    height: 35px;
+    width: 95%;
+  }
+  #button {
+    padding: 5px 20px;
+    height: 35px;
+  }
+  ul {
+    margin-top: 26px;
+  }
+  li {
+    padding: 3%;
+  }
+  .icons {
+    padding: 6px;
+  }
+  .icons a i {
+    font-size: 26px;
+    margin: 8px 20px;
+  }
+  .name {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 453px) {
+  .allContainer {
+    width: 92%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .intro {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .one {
+    display: none;
+  }
+  .three {
+    display: none;
+  }
+  input {
+    width: 97%;
+    height: 48px;
+  }
+  #button {
+    padding: 5px 20px;
+    height: 32px;
+    margin-top: 25px;
+  }
+  .four {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .icons {
+    padding: 6px;
+  }
+
+  .icons a i {
+    font-size: 26px;
+    margin: 8px 20px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li button {
+    padding: 0.8px 4px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  .intro {
+    margin-top: 37px;
+    font-size: 20px;
+  }
+  li {
+    padding: 4%;
+  }
+  .four {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 347px) {
+  .intro {
+    font-size: 23px;
+  }
+  li {
+    padding: 5%;
+  }
+}
+
+@media (max-width: 300px) {
+  .icons a i {
+    font-size: 26px;
+    margin: 8px 15px;
+  }
+  li {
+    padding: 6%;
+  }
+}
